@@ -31,7 +31,7 @@
      * @param {HTMLElement} div - Div donde se agrega la Card de la persona
      */
         printInfo(div) {
-            div.innerHTML += `<div class="card bg-light mb-3" style="max-width: 18rem;" id="card_${this.id}">
+            div.innerHTML += `<div class="card bg-light mb-3" style="cursor:pointer;" style="max-width: 18rem;" id="card_${this.id}">
             <div class="card-header">${this.id}.- ${this.name} - ${this.age}</div>
             <div class="card-body">
               <h5 class="card-title">${this.email}</h5>
